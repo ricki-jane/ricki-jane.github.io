@@ -1,0 +1,171 @@
+body, html
+{
+    margin:0;
+    padding: 0;
+}
+
+body {background-color: #92a8d1;}
+
+header 
+{
+    position: sticky;
+    background-color: #FFFFB5;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+   
+}
+
+header ::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbar
+{
+    width:100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.navbar ul
+{
+    margin: 0;
+    Padding: 0;
+    list-style: none;
+}
+
+.navbar li
+{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.navbar a 
+{
+  background-color: #F3B0C3; 
+  border: 2px solid #ABDEE6;
+  color: white;
+  padding: 5px 20px;
+  width: 100px;
+  font-family: DotGothic16;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+    
+.navbar a:hover 
+{
+  background-color: #ABDEE6;
+}
+
+.navbar a:active 
+{
+  background-color: #ABDEE6;
+  border: 2px #F3B0C3;
+  box-shadow: 0 4px #CBAACB;
+  transform: translateY(10px);
+}
+
+.navbar a::before
+{
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #CBAACB;
+
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+}
+
+.navbar :hover::before
+{
+    width: 100%
+}
+
+
+  h1 
+  {
+    color: #F3B0C3;
+    font-family: Bungee Inline;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  h2 
+  {
+    color: #ABDEE6;
+    font-family: bungee Shade;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    margin: 25px 50px;
+  }
+  
+  h3
+  {
+    font-family: Bungee Outline;
+    font-size: 23px;
+    color: #FFCCB6;
+    text-transform: uppercase;
+    margin: 25px 50px; 
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    
+  }
+
+  p
+    {
+    font-family: Gruppo;
+    margin: 25px 50px ; 
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    margin: 25px 50px;
+    }
+
+  h4
+  {
+    font-style: italic;
+    font-weight: lighter;
+    margin: 25px 50px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+  }
+
+.BlogPosts
+{
+  display: flex ;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  margin: 25px 50px;
+  font-family: Bungee Outline;
+  text-decoration: none;
+}
+.BlogPosts :link { text-decoration: none; }
+.BlogPost :visited { text-decoration: none; }
+.BlogPosts :hover { color: #F3B0C3; }
+
+.BlogPosts :active 
+{ 
+    text-decoration: none; 
+    color: #FFFFB5;
+}
+
+
+.IVS
+{
+  background-color: #FFFFFF;
+  margin: 25px 50px;
+  padding: 20px 10px;
+ 
+}
