@@ -169,3 +169,8 @@ header ::after
   padding: 20px 10px;
  
 }
+
+mark {
+  background-color: #FFFFB5;
+  color: black;
+}
