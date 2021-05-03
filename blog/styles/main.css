@@ -130,7 +130,6 @@ header ::after
     margin: 25px 50px ; 
     background-color: #FFFFFF;
     padding: 10px 20px;
-    margin: 25px 50px;
     }
 
   h4
@@ -174,3 +173,10 @@ mark {
   background-color: #FFFFB5;
   color: black;
 }
+
+ul {
+  font-family: Gruppo;
+  margin: 5px 50px ; 
+  padding: 10px 20px;
+}
+
